@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-scroll";
 import imgberanda from "../Assets/imgberanda.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
