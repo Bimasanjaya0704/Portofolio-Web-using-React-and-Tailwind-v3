@@ -104,7 +104,7 @@ const Blog = () => {
                     Dolor molestiae soluta mollitia. Similique, illum nullaa.
                   </p>
                   <a
-                    href="#"
+                    href="https://portofolio-bimasanjaya.netlify.app/"
                     className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
                   >
                     Baca Selengkapnya
