@@ -40,14 +40,14 @@ const Beranda = () => {
                   Bima Sanjaya
                 </h1>
                 <p className="font-medium text-cplight text-sm mb-5 md:text-base xl:text-lg">
-                  i'm a
+                  i'm a 
                   <Typical
                     loop={Infinity}
                     wrapper="i"
                     steps={[
-                      "Front-End Developer",
+                      " Front-End Developer",
                       2000,
-                      "Graphic Designer",
+                      " Graphic Designer",
                       2000,
                     ]}
                     delay={5000} // Waktu penundaan antara pengetikan karakter
