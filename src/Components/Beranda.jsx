@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 import imgberanda from "../Assets/imgberanda.png";
-import Typical from "react-typical";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import 'animate.css';
@@ -40,19 +39,7 @@ const Beranda = () => {
                   Bima Sanjaya
                 </h1>
                 <p className="font-medium text-cplight text-sm mb-5 md:text-base xl:text-lg">
-                  i'm a 
-                  <Typical
-                    loop={Infinity}
-                    wrapper="i"
-                    steps={[
-                      " Front-End Developer",
-                      2000,
-                      " Graphic Designer",
-                      2000,
-                    ]}
-                    delay={5000} // Waktu penundaan antara pengetikan karakter
-                    eraseDelay={5000} // Waktu penundaan antara penghapusan karakter
-                  />
+                  i'm a Front-End Developer
                 </p>
 
                 <p className="font-small text-cplight mb-10 leading-relaxed text-sm md:text-base lg:font-normal">
