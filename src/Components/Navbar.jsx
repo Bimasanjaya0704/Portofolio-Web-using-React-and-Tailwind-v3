@@ -12,7 +12,7 @@ const NavBar = () => {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 lg:block">
-              <a href="/">
+              <a href="https://portofolio-bimasanjaya.netlify.app/">
                 <h2 className="text-xl font-bold text-cpyellow md:text-2xl lg:text-3xl ">
                   Portofolio
                 </h2>

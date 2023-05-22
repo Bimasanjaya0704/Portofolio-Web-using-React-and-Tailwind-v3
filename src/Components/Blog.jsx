@@ -35,7 +35,7 @@ const Blog = () => {
                 <div className="py-8 px-6">
                   <h3>
                     <a
-                      href="#"
+                      href="https://portofolio-bimasanjaya.netlify.app/"
                       className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
                     >
                       Tips Belajar Programming
@@ -46,7 +46,7 @@ const Blog = () => {
                     Dolor molestiae soluta mollitia. Similique, illum nulla.
                   </p>
                   <a
-                    href="#"
+                    href="https://portofolio-bimasanjaya.netlify.app/"
                     className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
                   >
                     Baca Selengkapnya
@@ -64,7 +64,7 @@ const Blog = () => {
                 <div className="py-8 px-6">
                   <h3>
                     <a
-                      href="#"
+                      href="https://portofolio-bimasanjaya.netlify.app/"
                       className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
                     >
                       Tips Belajar Data Scients
@@ -75,7 +75,7 @@ const Blog = () => {
                     Dolor molestiae soluta mollitia. Similique, illum nulla.
                   </p>
                   <a
-                    href="#"
+                    href="https://portofolio-bimasanjaya.netlify.app/"
                     className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
                   >
                     Baca Selengkapnya
@@ -93,7 +93,7 @@ const Blog = () => {
                 <div className="py-8 px-6">
                   <h3>
                     <a
-                      href="#"
+                      href="https://portofolio-bimasanjaya.netlify.app/"
                       className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
                     >
                       Tips Belajar Laravel
@@ -122,7 +122,7 @@ const Blog = () => {
                 <div className="py-8 px-6">
                   <h3>
                     <a
-                      href="#"
+                      href="https://portofolio-bimasanjaya.netlify.app/"
                       className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
                     >
                       Tips Belajar Desain Grafis
@@ -133,7 +133,7 @@ const Blog = () => {
                     Dolor molestiae soluta mollitia. Similique, illum nulla.
                   </p>
                   <a
-                    href="#"
+                    href="https://portofolio-bimasanjaya.netlify.app/"
                     className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
                   >
                     Baca Selengkapnya
