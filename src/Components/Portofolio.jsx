@@ -7,7 +7,7 @@ const Portofolio = () => {
     <section id="portofolio">
       <div className="pt-36 pb-32 bg-cplight">
         <div className="container">
-          <div className="max-w-5xl px-14 mx-auto text-center mb-8 " data-aos="fade-up"  data-aos-duration="1500">
+          <div className="max-w-5xl mx-auto text-center mb-8 md:px-14" data-aos="fade-up"  data-aos-duration="1500">
             <h4 className="font-bold text-sm uppercase text-cpyellow mb-2 lg:text-base">
               Portofolio
             </h4>

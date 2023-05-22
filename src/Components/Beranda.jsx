@@ -3,8 +3,7 @@ import { Link } from "react-scroll";
 import imgberanda from "../Assets/imgberanda.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import 'animate.css';
-
+import "animate.css";
 
 const Beranda = () => {
   useEffect(() => {
@@ -38,7 +37,7 @@ const Beranda = () => {
                 <h1 className="font-bold uppercase text-cpyellow text-3xl mt-3 lg:text-5xl xl:text-6xl">
                   Bima Sanjaya
                 </h1>
-                <p className="font-medium text-cplight text-sm mb-5 md:text-base xl:text-lg">
+                <p className="font-medium text-cplight text-sm mb-5 md:text-base xl:text-lg animate__animated animate__flash animate__slower animate__infinite">
                   i'm a Front-End Developer
                 </p>
 
@@ -49,21 +48,17 @@ const Beranda = () => {
                 </p>
                 <button
                   onClick={handleDownload}
-                  className="text-base font-semibold text-cpyellow bg-cpsecond border-2 border-cpyellow py-3 px-8 mx-3  rounded-full hover:shadow-xl hover:bg-cplight hover:text-cpyellow hover:border-2 hover:border-white"
+                  className="text-sm font-semibold text-cpyellow bg-cpsecond border-2 border-cpyellow py-1 px-3  rounded-full hover:shadow-xl hover:bg-cplight hover:text-cpyellow hover:border-2 hover:border-white md:text-base md:py-2 md:px-5 animate__animated animate__headShake animate__slow animate__infinite"
                 >
                   Download CV
                 </button>
-                <Link
-                  to="contact"
-                  smooth={true}
-                  duration={500}
-                  className="text-base font-semibold text-cplight bg-cpyellow py-3 px-8  rounded-full hover:shadow-xl hover:bg-cplight hover:text-cpyellow hover:border-2"
-                >
-                  Contact Me!
-                </Link>
               </div>
               <div className="w-full self-end px-4 lg:w-1/2">
-                <div className="relative mt-10 lg:mt-9 lg:right-0" data-aos="zoom-in-up" data-aos-duration="2000">
+                <div
+                  className="relative mt-10 lg:mt-9 lg:right-0"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="2000"
+                >
                   <img
                     src={imgberanda}
                     alt="imgberanda"
