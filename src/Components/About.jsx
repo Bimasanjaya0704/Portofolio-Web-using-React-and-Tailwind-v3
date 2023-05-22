@@ -36,6 +36,7 @@ const About = () => {
                 <a
                   href="https://www.instagram.com/bim.sanss"
                   target="_blank"
+                  rel="noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-cplight text-cplight hover:border-cpyellow hover:bg-cpyellow hover:text-cplight"
                 >
                   <svg
@@ -52,6 +53,7 @@ const About = () => {
                 <a
                   href="https://facebook.com/bima.c.cetia.1"
                   target="_blank"
+                  rel="noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-cplight text-cplight hover:border-cpyellow hover:bg-cpyellow hover:text-cplight"
                 >
                   <svg
@@ -68,6 +70,7 @@ const About = () => {
                 <a
                   href="https://www.linkedin.com/in/bimasanjaya/"
                   target="_blank"
+                  rel="noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-cplight text-cplight hover:border-cpyellow hover:bg-cpyellow hover:text-cplight"
                 >
                   <svg

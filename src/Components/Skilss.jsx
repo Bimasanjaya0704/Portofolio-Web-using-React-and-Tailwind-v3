@@ -38,7 +38,7 @@ const Skills = () => {
               <a
                 href="https://www.w3schools.com/html/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s1} alt="HTML5" />
@@ -46,7 +46,7 @@ const Skills = () => {
               <a
                 href="https://www.w3schools.com/css/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s2} alt="Css" />
@@ -54,7 +54,7 @@ const Skills = () => {
               <a
                 href="https://www.javascript.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s3} alt="Javascript" />
@@ -62,7 +62,7 @@ const Skills = () => {
               <a
                 href="https://tailwindui.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s4} alt="Tailwind" />
@@ -70,7 +70,7 @@ const Skills = () => {
               <a
                 href="https://getbootstrap.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s5} alt="Bootstrap5" />
@@ -78,7 +78,7 @@ const Skills = () => {
               <a
                 href="https://react.dev/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s6} alt="React Js" />
@@ -86,7 +86,7 @@ const Skills = () => {
               <a
                 href="https://www.php.net/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s7} alt="PHP" />
@@ -94,7 +94,7 @@ const Skills = () => {
               <a
                 href="https://www.python.org/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
               >
                 <img src={s8} alt="Python" />
@@ -102,7 +102,7 @@ const Skills = () => {
               <a
                 href="https://www.mysql.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[120px] xl:max-w-[140px] xl:mx-8"
               >
                 <img src={s9} alt="MYSQL" />
