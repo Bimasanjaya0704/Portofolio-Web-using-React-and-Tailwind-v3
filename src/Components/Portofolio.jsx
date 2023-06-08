@@ -25,8 +25,10 @@ const Portofolio = () => {
               <div className="rounded-md shadow-md overflow-hidden"  data-aos="zoom-in" data-aos-duration="1200">
                 <img src={Porto1} alt="Web Movies" width="w-full" />
               </div>
-              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl" data-aos="fade-up"  data-aos-duration="2000">
-                Web Movies
+              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl hover:text-cpyellow" data-aos="fade-up"  data-aos-duration="2000">
+                <a href="https://webmovies-bimovies.netlify.app">
+                  BIMovies
+                </a>
               </h3>
               <p className="font-normal text-sm text-secondary text-justify lg:text-base" data-aos="fade-up"  data-aos-duration="2000">
                 Mengembangkan aplikasi Web API Movie yang memungkinkan pengguna

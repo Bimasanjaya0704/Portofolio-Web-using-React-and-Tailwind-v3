@@ -39,7 +39,7 @@ const Skills = () => {
                 href="https://www.w3schools.com/html/"
                 target="_blank"
                 rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
+                className="max-w-[110px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[130px] xl:max-w-[150px] xl:mx-8"
               >
                 <img src={s1} alt="HTML5" />
               </a>
@@ -47,7 +47,7 @@ const Skills = () => {
                 href="https://www.w3schools.com/css/"
                 target="_blank"
                 rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
+                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[110px] xl:mx-8"
               >
                 <img src={s2} alt="Css" />
               </a>
@@ -87,7 +87,7 @@ const Skills = () => {
                 href="https://www.php.net/"
                 target="_blank"
                 rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
+                className="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[120px] xl:max-w-[130px] xl:mx-8"
               >
                 <img src={s7} alt="PHP" />
               </a>

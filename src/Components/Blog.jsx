@@ -18,14 +18,20 @@ const Blog = () => {
                 Tulisan saya
               </h2>
               <p className="font-normal text-sm text-center text-cpsecond mt-1 lg:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-                nihil accusantium ipsam rerum similique dolorem laudantium animi
-                odio, odit rem unde nesciunt neque earum possimus!
+                Selamat datang di bagian blog dari web portofolio saya! Di sini,
+                Anda akan menemukan koleksi artikel dan tulisan terbaru yang
+                saya tulis. Blog ini dirancang sebagai tempat bagi saya untuk
+                berbagi pengetahuan, wawasan, dan pengalaman saya dalam bidang
+                yang saya geluti
               </p>
             </div>
           </div>
           <div className="flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4" data-aos="zoom-in" data-aos-duration="2000">
+            <div
+              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
                 <img
                   src="https://source.unsplash.com/360x200?programming"
@@ -42,8 +48,8 @@ const Blog = () => {
                     </a>
                   </h3>
                   <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolor molestiae soluta mollitia. Similique, illum nulla.
+                    Untuk membantu Anda memulai perjalanan belajar Anda, berikut
+                    adalah beberapa tips yang efektif.
                   </p>
                   <a
                     href="https://portofolio-bimasanjaya.netlify.app/"
@@ -54,7 +60,11 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4" data-aos="zoom-in" data-aos-duration="2000">
+            <div
+              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
                 <img
                   src="https://source.unsplash.com/360x200?data-scients"
@@ -71,8 +81,8 @@ const Blog = () => {
                     </a>
                   </h3>
                   <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolor molestiae soluta mollitia. Similique, illum nulla.
+                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
+                    adalah beberapa tips yang efektif.
                   </p>
                   <a
                     href="https://portofolio-bimasanjaya.netlify.app/"
@@ -83,7 +93,11 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4" data-aos="zoom-in" data-aos-duration="2000">
+            <div
+              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
                 <img
                   src="https://source.unsplash.com/360x200?laravel"
@@ -100,8 +114,8 @@ const Blog = () => {
                     </a>
                   </h3>
                   <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolor molestiae soluta mollitia. Similique, illum nullaa.
+                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
+                    adalah beberapa tips yang efektif.
                   </p>
                   <a
                     href="https://portofolio-bimasanjaya.netlify.app/"
@@ -112,7 +126,11 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4" data-aos="zoom-in" data-aos-duration="2000">
+            <div
+              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
                 <img
                   src="https://source.unsplash.com/360x200?design"
@@ -129,8 +147,8 @@ const Blog = () => {
                     </a>
                   </h3>
                   <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolor molestiae soluta mollitia. Similique, illum nulla.
+                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
+                    adalah beberapa tips yang efektif.
                   </p>
                   <a
                     href="https://portofolio-bimasanjaya.netlify.app/"
