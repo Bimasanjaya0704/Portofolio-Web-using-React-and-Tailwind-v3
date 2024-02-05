@@ -1,89 +1,282 @@
 import React from "react";
-import Porto1 from "../Assets/porto1.png";
+import Porto1 from "../Assets/bimovies.png";
 import Porto2 from "../Assets/porto2.png";
+import Porto3 from "../Assets/lesyuk.png";
+import Porto5 from "../Assets/prakalight.png";
+import Porto4 from "../Assets/peringkas teks.png";
+import { CgArrowTopRightR } from "react-icons/cg";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 const Portofolio = () => {
   return (
     <section id="portofolio">
-      <div className="pt-36 pb-32 bg-cplight">
+      <div className="py-8 md:py-12 bg-cpdark">
         <div className="container">
-          <div className="max-w-5xl mx-auto text-center mb-8 md:px-14" data-aos="fade-up"  data-aos-duration="1500">
-            <h4 className="font-bold text-sm uppercase text-cpyellow mb-2 lg:text-base">
-              Portofolio
+          <div
+            className="max-w-5xl mx-auto text-center mb-8 md:px-14"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
+              My Project
             </h4>
-            <h2 className="font-semibold text-xl text-cpdark uppercase lg:text-3xl ">
-              Project terbaru saya{" "}
-            </h2>
-            <p className="font-normal text-sm text-center text-secondary mt-2 lg:text-base">
-              Berikut adalah beberapa projek yang telah saya selesaikan dan saya
-              kan terus belajar lagi agar saya dapat mengembangkan skills saya
-              pada bidang ini
+            <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+              Explore some of my notable projects and contributions in the field
+              of web development.
             </p>
           </div>
-          <div className="w-full flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-            <div className="mb-5 p-4 md:w-1/2" > 
-              <div className="rounded-md shadow-md overflow-hidden"  data-aos="zoom-in" data-aos-duration="1200">
-                <img src={Porto1} alt="Web Movies" width="w-full" />
+          <div className="w-full">
+            {/* Project 1 */}
+            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img src={Porto1} alt="Web Movies" className="w-full" />
               </div>
-              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl hover:text-cpyellow" data-aos="fade-up"  data-aos-duration="2000">
-                <a href="https://webmovies-bimovies.netlify.app">
-                  BIMovies
-                </a>
-              </h3>
-              <p className="font-normal text-sm text-secondary text-justify lg:text-base" data-aos="fade-up"  data-aos-duration="2000">
-                Mengembangkan aplikasi Web API Movie yang memungkinkan pengguna
-                untuk mencari informasi film seperti judul, gambar, dan rating.
-                Pengguna dapat melakukan pencarian film berdasarkan judul dan
-                mendapatkan hasil yang akurat dan informatif. Projek ini dibuat
-                menggunakan React JS dan Tailwind, kemudian untuk API mengambil
-                dari "themoviedb"
-              </p>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    BIMovies
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  Developing a Web API Movie application that allows users to
+                  search for movie information such as title, images, and
+                  ratings. Users can search for movies based on the title and
+                  receive accurate and informative results. This project is
+                  built using React JS and Tailwind, with the API sourced from
+                  "themoviedb."
+                </p>
+                <div
+                  className="flex items-center mt-12 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://webmovies-bimovies.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <CgArrowTopRightR />
+                    Visit
+                  </a>
+                  <a
+                    href="https://github.com/Bimasanjaya0704/Web-movies-using-ReactJS-and-Tailwind-with-TMDB-API"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <PiGithubLogoFill />
+                    Go to Repo
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="mb-15 p-4 md:w-1/2" >
-              <div className="rounded-md shadow-md overflow-hidden" data-aos="zoom-in" data-aos-duration="1200"> 
-                <img src={Porto2} alt="Todo-List" width="w-full" />
+
+            {/* Project 2 */}
+            {/* Add similar responsive structure for other projects */}
+            {/* Project 2 */}
+            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img src={Porto2} alt="TodoList" className="w-full" />
               </div>
-              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl" data-aos="fade-up"  data-aos-duration="2000">
-                Todo-List
-              </h3>
-              <p className="font-normal text-sm text-secondary text-justify lg:text-base" data-aos="fade-up"  data-aos-duration="2000">
-                Membangun aplikasi Todolist yang membantu pengguna mengatur dan
-                mengelola tugas sehari-hari mereka. Dengan menggunakan teknologi
-                seperti HTML, CSS, dan JavaScript, Aplikasi ini membantu
-                pengguna untuk tetap terorganisir dan efisien dalam menjalani
-                aktivitas sehari-hari mereka.
-              </p>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    TodoList
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  The TodoList project is a web application designed to help
+                  users manage their tasks efficiently. It provides a
+                  user-friendly interface for creating, editing, and deleting
+                  tasks. Users can organize their activities. The application is
+                  built using modern web technologies, including React JS for
+                  the frontend and state management, ensuring a dynamic and
+                  responsive user experience.
+                </p>
+                <div
+                  className="flex items-center mt-4 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://github.com/Bimasanjaya0704/Todo-list-with-ReactJS"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <PiGithubLogoFill />
+                    Go to Repo
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="mb-5 p-4 md:w-1/2" >
-              <div className="rounded-md shadow-md overflow-hidden" data-aos="zoom-in" data-aos-duration="1200">
-                <img src={Porto2} alt="Web Movies" width="w-full" />
+
+            {/* Project 3 */}
+            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img src={Porto5} alt="Prakalight" className="w-full" />
               </div>
-              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl" data-aos="fade-up"  data-aos-duration="2000">
-                Text Summaryzation
-              </h3>
-              <p className="font-normal text-sm text-secondary text-justify lg:text-base" data-aos="fade-up"  data-aos-duration="2000">
-                Mengembangkan algoritma text summarization yang dapat merangkum
-                teks panjang menjadi ringkasan yang padat dan informatif. Projek
-                ini dapat bermanfaat dalam mengolah teks berita, artikel, atau
-                dokumen lainnya untuk memperoleh informasi penting dengan lebih
-                efisien.
-              </p>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    Prakalight
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  Shining a light on innovative tech. 🌟 Transforming
+                  possibilities into realities. ✨ Embrace the brilliance of
+                  Prakalight. 💡 Prakalight is a dynamic and innovative project
+                  that focuses on providing comprehensive information about
+                  website development services. It is designed to serve as a
+                  centralized platform for users seeking professional assistance
+                  in creating and enhancing their online presence through
+                  well-crafted websites.
+                </p>
+                <div
+                  className="flex items-center mt-3 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://prakalight.live/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <CgArrowTopRightR />
+                    Visit
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="mb-5 p-4 md:w-1/2" >
-              <div className="rounded-md shadow-md overflow-hidden" data-aos="zoom-in" data-aos-duration="1200">
-                <img src={Porto2} alt="Todo-List" width="w-full" />
+
+            {/* Project 4 */}
+            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img src={Porto3} alt="Lesyuk" className="w-full" />
               </div>
-              <h3 className="font-semibold text-base text-dark uppercase mt-4 mb-1 lg:text-2xl" data-aos="fade-up"  data-aos-duration="2000">
-                Sistem pencarian kalimat utama
-              </h3>
-              <p className="font-normal text-sm text-secondary text-justify lg:text-base" data-aos="fade-up"  data-aos-duration="2000">
-                Sistem Pencarian Kalimat Utama yang menggunakan metode TF-IDF
-                (Term Frequency-Inverse Document Frequency) dan MMR (Maximal
-                Marginal Relevance). Dengan menggunakan teknik ini, sistem dapat
-                mengidentifikasi dan menyoroti kalimat-kalimat utama dalam teks,
-                sehingga memudahkan pengguna dalam memahami informasi secara
-                cepat dan efektif.
-              </p>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    Lesyuk
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  The LesYuk project is an innovative web application designed
+                  to streamline the process of finding the perfect tutor for
+                  students. This platform serves as a bridge between students
+                  seeking academic assistance and qualified tutors available for
+                  various subjects. With LesYuk, the goal is to provide a
+                  seamless and efficient way for students to connect with tutors
+                  who match their specific learning needs.
+                </p>
+                <div
+                  className="flex items-center mt-4 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://lesyuk.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <CgArrowTopRightR />
+                    Visit
+                  </a>
+                  <a
+                    href="https://github.com/Bimasanjaya0704/lesyuk_fe"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <PiGithubLogoFill />
+                    Go to Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 5 */}
+            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img
+                  src={Porto4}
+                  alt="Website Peringkas Teks"
+                  className="w-full"
+                />
+              </div>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    Website Peringkas Teks
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  RingkasAJA is a text summarization project using the Maximum
+                  Marginal Relevance (MMR) method. Its focus is on providing
+                  users with concise and relevant summaries while eliminating
+                  unnecessary details. The project enhances reading efficiency
+                  by delivering condensed versions of texts across various
+                  domains.
+                </p>
+                <div
+                  className="flex items-center mt-8 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://github.com/Bimasanjaya0704/peringkas_teks_otomatis_MMR"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <PiGithubLogoFill />
+                    Go to Repo
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

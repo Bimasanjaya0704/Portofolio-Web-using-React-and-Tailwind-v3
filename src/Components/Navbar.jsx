@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import React from 'react';
-
+import React from "react";
 
 const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -9,12 +8,12 @@ const NavBar = () => {
   return (
     <nav className="w-full bg-cpdark shadow-md">
       <div className="container">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-8">
+        <div className="justify-between px-4  lg:max-w-7xl lg:items-center lg:flex lg:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 lg:block">
               <a href="https://portofolio-bimasanjaya.netlify.app/">
                 <h2 className="text-xl font-bold text-cpyellow md:text-2xl lg:text-3xl ">
-                  Portofolio
+                  My Portofolio
                 </h2>
               </a>
               <div className="lg:hidden">
@@ -57,38 +56,32 @@ const NavBar = () => {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
+              className={`flex-1 justify-self-center p-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 lg:text-base">
-                <li className="text-slate-300 hover:text-cpyellow focus:cursor-pointer">
-
+                <li className="text-slate-300 hover:text-cpyellow cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="home" smooth={true} duration={500}>
                     Home
                   </Link>
                 </li>
-                <li className="text-slate-300 hover:text-cpyellow">
-                  <Link to="about" smooth={true} duration={800} className="">
-                    About
+                <li className="text-slate-300 hover:text-cpyellow cursor-pointer lg:text-md lg:font-semibold">
+                  <Link to="blog" smooth={true} duration={1400}>
+                    Experience
                   </Link>
                 </li>
-                <li className="text-slate-300 hover:text-cpyellow">
-                  <Link to="portofolio" smooth={true} duration={1000}>
-                    Portofolio
-                  </Link>
-                </li>
-                <li className="text-slate-300 hover:text-cpyellow">
+                <li className="text-slate-300 hover:text-cpyellow cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="skills" smooth={true} duration={1300}>
                     Skills
                   </Link>
                 </li>
-                <li className="text-slate-300 hover:text-cpyellow">
-                  <Link to="blog" smooth={true} duration={1400}>
-                    Blog
+                <li className="text-slate-300 hover:text-cpyellow cursor-pointer lg:text-md lg:font-semibold">
+                  <Link to="portofolio" smooth={true} duration={1000}>
+                    Project
                   </Link>
                 </li>
-                <li className="text-slate-300 hover:text-cpyellow">
+                <li className="text-slate-300 hover:text-cpyellow cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="contact" smooth={true} duration={1500}>
                     Contact
                   </Link>

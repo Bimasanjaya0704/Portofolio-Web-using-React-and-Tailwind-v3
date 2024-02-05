@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <section id="blog">
-      <div className="pt-36 pb-32 bg-cplight">
+      <div className="py-8 md:py-12 bg-cpdark">
         <div className="container">
           <div className="w-full px-4">
             <div
@@ -11,154 +11,83 @@ const Blog = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <h4 className="font-bold text-sm uppercase text-cpyellow mb-2 lg:text-base">
-                Blog
+              <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
+                Experience
               </h4>
-              <h2 className="font-semibold text-xl text-cpdark uppercase lg:text-3xl">
-                Tulisan saya
-              </h2>
-              <p className="font-normal text-sm text-center text-cpsecond mt-1 lg:text-base">
-                Selamat datang di bagian blog dari web portofolio saya! Di sini,
-                Anda akan menemukan koleksi artikel dan tulisan terbaru yang
-                saya tulis. Blog ini dirancang sebagai tempat bagi saya untuk
-                berbagi pengetahuan, wawasan, dan pengalaman saya dalam bidang
-                yang saya geluti
+              <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+                As a dedicated professional in the field, I bring a wealth of
+                experience and expertise to every project. My journey in the
+                industry has equipped me with valuable skills and insights,
+                allowing me to thrive in dynamic environments.
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap">
-            <div
-              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
-                <img
-                  src="https://source.unsplash.com/360x200?programming"
-                  alt="programming"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="https://portofolio-bimasanjaya.netlify.app/"
-                      className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
-                    >
-                      Tips Belajar Programming
-                    </a>
-                  </h3>
-                  <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                    Untuk membantu Anda memulai perjalanan belajar Anda, berikut
-                    adalah beberapa tips yang efektif.
-                  </p>
-                  <a
-                    href="https://portofolio-bimasanjaya.netlify.app/"
-                    className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
-                  >
-                    Baca Selengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
-                <img
-                  src="https://source.unsplash.com/360x200?data-scients"
-                  alt="data scients"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="https://portofolio-bimasanjaya.netlify.app/"
-                      className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
-                    >
-                      Tips Belajar Data Scients
-                    </a>
-                  </h3>
-                  <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
-                    adalah beberapa tips yang efektif.
-                  </p>
-                  <a
-                    href="https://portofolio-bimasanjaya.netlify.app/"
-                    className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
-                  >
-                    Baca Selengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
-                <img
-                  src="https://source.unsplash.com/360x200?laravel"
-                  alt="laravel"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="https://portofolio-bimasanjaya.netlify.app/"
-                      className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
-                    >
-                      Tips Belajar Laravel
-                    </a>
-                  </h3>
-                  <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
-                    adalah beberapa tips yang efektif.
-                  </p>
-                  <a
-                    href="https://portofolio-bimasanjaya.netlify.app/"
-                    className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
-                  >
-                    Baca Selengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <div className="bg-cpdark rounded-xl shadow-lg overflow-hidden mb-10 lg:border-4 lg:border-cpyellow">
-                <img
-                  src="https://source.unsplash.com/360x200?design"
-                  alt="desain grafis"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="https://portofolio-bimasanjaya.netlify.app/"
-                      className="font-semibold text-base text-white mb-3 block hover:text-cpyellow truncate"
-                    >
-                      Tips Belajar Desain Grafis
-                    </a>
-                  </h3>
-                  <p className="font-normal text-sm text-cplight mt-1 lg:text-base mb-4">
-                  Untuk membantu Anda memulai perjalanan belajar Anda, berikut
-                    adalah beberapa tips yang efektif.
-                  </p>
-                  <a
-                    href="https://portofolio-bimasanjaya.netlify.app/"
-                    className="font-normal text-sm text-white rounded-lg bg-cpyellow py-2 px-4 hover:opacity-80"
-                  >
-                    Baca Selengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
+
+          <div
+            className="w-full px-4 "
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <h5 className="font-bold text-lg text-cpyellow mb-2">
+              PRAKALIGHT - Semarang, Indonesia
+            </h5>
+            <p className="font-normal text-md text-cplight mb-2">
+              <span className="font-bold">Front-End Developer</span> | Jan 2023
+              - Present
+            </p>
+            <ul className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg">
+              <li>
+                Contribute to the development of website interfaces for clients.
+              </li>
+              <li>
+                Collaborate with the backend team to align the interface with
+                server functions.
+              </li>
+              <li>
+                Focus on creating visually appealing and functionally optimized
+                interfaces.
+              </li>
+              <li>
+                Utilize expertise in HTML, CSS, and JavaScript to craft
+                responsive and immersive user experiences.
+              </li>
+            </ul>
+
+            <h5 className="font-bold text-lg text-cpyellow mb-2">
+              DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
+              SEMARANG - Semarang, Indonesia
+            </h5>
+            <p className="font-normal text-md text-cplight mb-2">
+              <span className="font-bold">Web Developer - Internship</span> |
+              Nov 2021 - Jan 2022
+            </p>
+            <ul className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg">
+              <li>Assisting in the development of the company's website.</li>
+              <li>
+                Collaborating with the development team to identify and resolve
+                technical issues.
+              </li>
+              <li>
+                Managing and maintaining company data, including database design
+                and data entry.
+              </li>
+              <li>Conducting quality assurance testing and bug fixes.</li>
+            </ul>
+
+            <h5 className="font-bold text-lg text-cpyellow mb-2">
+              TONEC VISION - Semarang, Indonesia
+            </h5>
+            <p className="font-normal text-md text-cplight mb-2">
+              <span className="font-bold">Foto&Videographer - Internship</span>{" "}
+              | Mar 2018 to Apr 2018
+            </p>
+            <ul className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg">
+              <li>Conducting photo and video shoots.</li>
+              <li>Editing photos and videos.</li>
+              <li>Communicating with clients.</li>
+              <li>Learning to create 3D designs using Photoshop.</li>
+              <li>Collaborating with the team.</li>
+            </ul>
           </div>
         </div>
       </div>

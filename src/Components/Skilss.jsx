@@ -12,19 +12,21 @@ import s9 from "../Assets/s9.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="pt-36 pb-32 bg-cpdark">
+      <div className="py-8 md:py-12 bg-cpdark">
         <div className="container">
           <div
-            className="mx-auto text-center mb-8"
+            className="max-w-4xl mx-auto text-center mb-8"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h4 className="font-bold text-sm uppercase text-cpyellow mb-2 lg:text-base">
+            <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
               Skilss
             </h4>
-            <h2 className="font-semibold text-xl text-white uppercase lg:text-3xl">
-              Beberapa Skills yang saya miliki
-            </h2>
+            <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+              As a developer, I possess a diverse set of skills that contribute
+              to successful project outcomes. Here are some key areas of
+              expertise:
+            </p>
           </div>
           <div
             className="w-full px-4"
