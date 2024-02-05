@@ -27,7 +27,11 @@ const Portofolio = () => {
           </div>
           <div className="w-full">
             {/* Project 1 */}
-            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"
@@ -83,7 +87,11 @@ const Portofolio = () => {
             {/* Project 2 */}
             {/* Add similar responsive structure for other projects */}
             {/* Project 2 */}
-            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"
@@ -129,7 +137,11 @@ const Portofolio = () => {
             </div>
 
             {/* Project 3 */}
-            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"
@@ -176,7 +188,11 @@ const Portofolio = () => {
             </div>
 
             {/* Project 4 */}
-            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"
@@ -231,7 +247,11 @@ const Portofolio = () => {
             </div>
 
             {/* Project 5 */}
-            <div className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"

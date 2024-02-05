@@ -112,13 +112,13 @@ const Beranda = () => {
                   />
                 </div>
                 <div
-                  className="w-full px-4 flex items-center gap-8 justify-start md:px-0 md:justify-end mt-24 pb-12 md:pb-0"
+                  className="w-full flex items-center gap-8 justify-start md:justify-end mt-24 pb-12 md:pb-0"
                   data-aos="fade-up"
                 >
-                  <h3 className="font-semibold text-white text-base uppercase max-w-md lg:text-xl">
+                  <h3 className="font-semibold text-white text-md max-w-md lg:text-xl">
                     Find Me On
                   </h3>
-                  <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-1.5 md:gap-6">
                     <a
                       href="https://github.com/Bimasanjaya0704"
                       target="_blank"
