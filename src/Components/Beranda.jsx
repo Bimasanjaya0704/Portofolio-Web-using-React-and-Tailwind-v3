@@ -32,7 +32,7 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-20 pb-5 bg-cpsecond md:h-screen">
+        <div className="pt-8 md:pt-20 pb-5 bg-cpsecond md:h-screen">
           <div className="container">
             <div className="flex flex-wrap lg:mt-24">
               <div
@@ -45,10 +45,10 @@ const Beranda = () => {
                 <h2 className="text-sm font-semibold text-white lg:text-3xl">
                   Hello Buds
                 </h2>
-                <h1 className="font-bold text-cpyellow text-3xl mt-3 lg:text-5xl xl:text-6xl">
+                <h1 className="font-bold text-cpyellow text-2xl mt-3 lg:text-5xl xl:text-6xl">
                   I am Bima Sanjaya
                 </h1>
-                <p className="font-medium text-cplight mt-2 text-sm mb-5 md:text-base xl:text-lg">
+                <p className="font-medium text-cplight mt-2 text-sm mb-3 md:mb-5 md:text-base xl:text-lg">
                   i'm a{" "}
                   <span className="text-cpyellow font-bold">
                     Front-End Developer
