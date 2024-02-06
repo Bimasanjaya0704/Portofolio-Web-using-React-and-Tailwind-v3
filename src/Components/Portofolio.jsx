@@ -4,6 +4,7 @@ import Porto2 from "../Assets/porto2.png";
 import Porto3 from "../Assets/lesyuk.png";
 import Porto5 from "../Assets/prakalight.png";
 import Porto4 from "../Assets/peringkas teks.png";
+import Porto6 from "../Assets/wawasanedukasi.png";
 import { CgArrowTopRightR } from "react-icons/cg";
 import { PiGithubLogoFill } from "react-icons/pi";
 
@@ -84,8 +85,6 @@ const Portofolio = () => {
               </div>
             </div>
 
-            {/* Project 2 */}
-            {/* Add similar responsive structure for other projects */}
             {/* Project 2 */}
             <div
               data-aos="zoom-in"
@@ -170,7 +169,7 @@ const Portofolio = () => {
                   well-crafted websites.
                 </p>
                 <div
-                  className="flex items-center mt-3 gap-2"
+                  className="flex items-center mt-4 gap-2"
                   data-aos="zoom-in"
                   data-aos-duration="1200"
                 >
@@ -188,6 +187,55 @@ const Portofolio = () => {
             </div>
 
             {/* Project 4 */}
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+            >
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                className="mb-0 md:mb-0 md:w-1/2"
+              >
+                <img src={Porto6} alt="wawasan edukasi" className="w-full" />
+              </div>
+              <div className="md:w-1/2">
+                <h3 data-aos="fade-up" data-aos-duration="2000">
+                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                    Wawasan Edukasi
+                  </div>
+                </h3>
+                <p
+                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  Wawasan Edukasi is a website dedicated to providing
+                  educational news and insights to a diverse audience. Built
+                  using WordPress, this platform serves as a centralized hub for
+                  valuable information, news articles, and educational
+                  resources, aiming to keep users informed about the latest
+                  developments in the field of education.
+                </p>
+                <div
+                  className="flex items-center mt-4 gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="https://prakalight.live/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                  >
+                    <CgArrowTopRightR />
+                    Visit
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 5 */}
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
@@ -246,7 +294,7 @@ const Portofolio = () => {
               </div>
             </div>
 
-            {/* Project 5 */}
+            {/* Project 6 */}
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
