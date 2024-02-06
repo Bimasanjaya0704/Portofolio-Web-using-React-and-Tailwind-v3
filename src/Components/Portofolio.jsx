@@ -223,7 +223,7 @@ const Portofolio = () => {
                   data-aos-duration="1200"
                 >
                   <a
-                    href="https://prakalight.live/"
+                    href="https://staging.wawasanedukasi.com/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-2 bg-cpyellow text-cpdark px-4 py-2 rounded-md text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
