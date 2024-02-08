@@ -7,7 +7,7 @@ const Blog = () => {
         <div className="container">
           <div className="w-full px-4">
             <div
-              className="max-w-4xl mx-auto text-center mb-8"
+              className="max-w-3xl mx-auto text-center mb-8"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
@@ -24,70 +24,102 @@ const Blog = () => {
           </div>
 
           <div
-            className="w-full px-4 "
+            className="w-full px-4"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            <h5 className="font-bold text-lg text-cpyellow mb-2">
-              PRAKALIGHT - Semarang, Indonesia
-            </h5>
-            <p className="font-normal text-md text-cplight mb-2">
-              <span className="font-bold">Front-End Developer</span> | Jan 2023
-              - Present
-            </p>
-            <ul className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg">
-              <li>
-                Contribute to the development of website interfaces for clients.
-              </li>
-              <li>
-                Collaborate with the backend team to align the interface with
-                server functions.
-              </li>
-              <li>
-                Focus on creating visually appealing and functionally optimized
-                interfaces.
-              </li>
-              <li>
-                Utilize expertise in HTML, CSS, and JavaScript to craft
-                responsive and immersive user experiences.
-              </li>
-            </ul>
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center mb-4">
+                <div className="w-1.5 bg-green-600 h-16 hover:bg-green-400 transition-colors"></div>
+                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                  PRAKALIGHT - Semarang, Indonesia
+                </h5>
+              </div>
+              <p className="font-normal text-md text-cplight mb-2">
+                <span className="font-bold">Front-End Developer</span> | Jan
+                2023 - Present
+              </p>
+              <p className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg text-justify">
+                As a website interface developer, my role involves contributing
+                to the development of website interfaces tailored to meet
+                clients' needs. This entails collaborating closely with the
+                backend team to ensure seamless alignment between the interface
+                and server functions. My primary focus is on creating interfaces
+                that are not only visually appealing but also functionally
+                optimized to enhance user experience. To achieve this, I
+                leverage my expertise in HTML, CSS, and JavaScript to craft
+                responsive and immersive interfaces that effectively engage and
+                retain users.
+              </p>
+            </div>
+          </div>
 
-            <h5 className="font-bold text-lg text-cpyellow mb-2">
-              DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
-              SEMARANG - Semarang, Indonesia
-            </h5>
-            <p className="font-normal text-md text-cplight mb-2">
-              <span className="font-bold">Web Developer - Internship</span> |
-              Nov 2021 - Jan 2022
-            </p>
-            <ul className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg">
-              <li>Assisting in the development of the company's website.</li>
-              <li>
-                Collaborating with the development team to identify and resolve
-                technical issues.
-              </li>
-              <li>
-                Managing and maintaining company data, including database design
-                and data entry.
-              </li>
-              <li>Conducting quality assurance testing and bug fixes.</li>
-            </ul>
+          <div
+            className="w-full px-4"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center mb-4">
+                <div className="w-1 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
+                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                  DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
+                  SEMARANG - Semarang, Indonesia
+                </h5>
+              </div>
+              <p className="font-normal text-md text-cplight mb-2">
+                <span className="font-bold">Web Developer - Internship</span> |
+                Nov 2021 - Jan 2022
+              </p>
+              <p className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg text-justify">
+                In my role as a member of the development team, I actively
+                assist in the development of our company's website, ensuring its
+                ongoing improvement and functionality. Collaborating closely
+                with my team, I help identify and address technical issues that
+                may arise during the development process, ensuring smooth
+                progress and timely resolution. Additionally, I take
+                responsibility for managing and maintaining company data, which
+                includes tasks such meticulous data entry to ensure accuracy and
+                accessibility.
+              </p>
+            </div>
+          </div>
 
-            <h5 className="font-bold text-lg text-cpyellow mb-2">
-              TONEC VISION - Semarang, Indonesia
-            </h5>
-            <p className="font-normal text-md text-cplight mb-2">
-              <span className="font-bold">Foto&Videographer - Internship</span>{" "}
-              | Mar 2018 to Apr 2018
-            </p>
-            <ul className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg">
-              <li>Conducting photo and video shoots.</li>
-              <li>Editing photos and videos.</li>
-              <li>Communicating with clients.</li>
-              <li>Learning to create 3D designs using Photoshop.</li>
-              <li>Collaborating with the team.</li>
-            </ul>
+          <div
+            className="w-full px-4"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center mb-4">
+                <div className="w-1 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
+                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                  TONEC VISION - Semarang, Indonesia
+                </h5>
+              </div>
+              <p className="font-normal text-md text-cplight mb-2">
+                <span className="font-bold">
+                  Foto&Videographer - Internship
+                </span>{" "}
+                | Mar 2018 to Apr 2018
+              </p>
+              <p className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg text-justify">
+                In my role, I engage in a diverse range of tasks that contribute
+                to our creative endeavors. This includes conducting photo and
+                video shoots to capture compelling visual content. Following the
+                shoot, I take charge of editing both photos and videos, ensuring
+                they meet the client's specifications and uphold our quality
+                standards. Effective communication with clients is paramount, as
+                I strive to understand their vision and preferences, fostering
+                strong collaborative relationships throughout the project
+                lifecycle. Additionally, I am continuously expanding my skill
+                set by learning to create 3D designs using Photoshop, enhancing
+                our capabilities and offering innovative solutions to our
+                clients. Collaboration with my team is integral to our success,
+                as we work together to brainstorm ideas, provide feedback, and
+                execute projects seamlessly.
+              </p>
+            </div>
           </div>
         </div>
       </div>

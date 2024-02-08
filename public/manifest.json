@@ -1,25 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bima's Portfolio",
+  "name": "Bima Sanjaya's Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "icons.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "icons.svg",
+      "type": "image/svg+xml",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "icons.svg",
+      "type": "image/svg+xml",
+      "sizes": "64x64 32x32 24x24 16x16"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Bima Sanjaya's Portfolio - A showcase of projects and skills",
+  "categories": ["portfolio", "web development", "front-end development"]
 }

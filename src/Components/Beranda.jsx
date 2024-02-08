@@ -32,7 +32,7 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-8 md:pt-20 pb-5 bg-cpsecond md:h-screen">
+        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond md:h-screen">
           <div className="container">
             <div className="flex flex-wrap lg:mt-24">
               <div
