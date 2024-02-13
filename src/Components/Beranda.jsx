@@ -32,7 +32,7 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond md:h-screen">
+        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond ">
           <div className="container">
             <div className="flex flex-wrap lg:mt-24">
               <div
@@ -108,14 +108,16 @@ const Beranda = () => {
                   <img
                     src={imgberanda}
                     alt="imgberanda"
-                    className="max-w-full mx-auto object-cover animate__animated animate__pulse animate__slow animate__infinite"
+                    className="max-w-full mx-auto object-cover"
                   />
+
+                  {/* Class animasi =       className="max-w-full mx-auto object-cover "*/}
                 </div>
                 <div
-                  className="w-full flex items-center gap-8 justify-start md:justify-end mt-24 pb-12 md:pb-0"
+                  className="w-full flex items-center justify-center gap-3 md:flex-row md:justify-end md:items-center md:gap-8 mt-24 pb-12 md:pb-0"
                   data-aos="fade-up"
                 >
-                  <h3 className="font-semibold text-white text-md max-w-md lg:text-xl">
+                  <h3 className="font-semibold text-white pt-2 text-base max-w-md lg:text-xl">
                     Find Me On
                   </h3>
                   <div className="flex items-center gap-1.5 md:gap-6">
@@ -124,28 +126,28 @@ const Beranda = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaGithubSquare className="text-3xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaGithubSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/bimasanjaya/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaLinkedin className="text-3xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaLinkedin className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://www.instagram.com/bim.sanss"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaInstagramSquare className="text-3xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaInstagramSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://facebook.com/bima.c.cetia.1"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaFacebookSquare className="text-3xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaFacebookSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
                   </div>
                 </div>

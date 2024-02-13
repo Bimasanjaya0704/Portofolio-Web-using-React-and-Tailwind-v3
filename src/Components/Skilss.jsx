@@ -1,13 +1,26 @@
 import React from "react";
-import s1 from "../Assets/s1.png";
-import s2 from "../Assets/s2.png";
-import s3 from "../Assets/s3.png";
-import s4 from "../Assets/s4.png";
-import s5 from "../Assets/s5.png";
-import s6 from "../Assets/s6.png";
-import s7 from "../Assets/s7.png";
-import s8 from "../Assets/s8.png";
-import s9 from "../Assets/s9.png";
+import {
+  FaHtml5,
+  FaPython,
+  FaReact,
+  FaLaravel,
+  FaGitSquare,
+  FaCss3,
+  FaBootstrap,
+  FaGithub,
+} from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { TbBrandVscode } from "react-icons/tb";
+import {
+  SiPhp,
+  SiFlask,
+  SiTailwindcss,
+  SiPostman,
+  SiNpm,
+  SiEslint,
+  SiGitlab,
+  SiTypescript,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -15,100 +28,186 @@ const Skills = () => {
       <div className="py-8 md:py-12 bg-cpdark">
         <div className="container">
           <div
-            className="max-w-4xl mx-auto text-center mb-8"
+            className="w-full mx-auto text-center mb-8"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
             <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
-              Skilss
+              Skilss & Tools
             </h4>
             <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
-              As a developer, I possess a diverse set of skills that contribute
-              to successful project outcomes. Here are some key areas of
-              expertise:
+              As a developer, I bring a diverse skill set to the table,
+              enhancing project success. Since 2020, I've dedicated myself to
+              frontend development, refining my expertise in:
             </p>
           </div>
           <div
             className="w-full px-4"
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
-            data-aos-delay="300"
             data-aos-offset="0"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
-            <div className="flex flex-wrap items-center justify-center">
-              <a
-                href="https://www.w3schools.com/html/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[110px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[130px] xl:max-w-[150px] xl:mx-8"
-              >
-                <img src={s1} alt="HTML5" />
-              </a>
-              <a
-                href="https://www.w3schools.com/css/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[110px] xl:mx-8"
-              >
-                <img src={s2} alt="Css" />
-              </a>
-              <a
-                href="https://www.javascript.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
-              >
-                <img src={s3} alt="Javascript" />
-              </a>
-              <a
-                href="https://tailwindui.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
-              >
-                <img src={s4} alt="Tailwind" />
-              </a>
-              <a
-                href="https://getbootstrap.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
-              >
-                <img src={s5} alt="Bootstrap5" />
-              </a>
-              <a
-                href="https://react.dev/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
-              >
-                <img src={s6} alt="React Js" />
-              </a>
-              <a
-                href="https://www.php.net/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[120px] xl:max-w-[130px] xl:mx-8"
-              >
-                <img src={s7} alt="PHP" />
-              </a>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[90px] lg:mx-6 lg:max-w-[100px] xl:max-w-[120px] xl:mx-8"
-              >
-                <img src={s8} alt="Python" />
-              </a>
-              <a
-                href="https://www.mysql.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-200 hover:grayscale-0 hover:opacity-100 md:max-w-[110px] lg:mx-6 lg:max-w-[120px] xl:max-w-[140px] xl:mx-8"
-              >
-                <img src={s9} alt="MYSQL" />
-              </a>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                Languages
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <RiJavascriptFill className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">
+                      Javascript
+                    </h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiPhp className="text-xl md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">PHP</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaPython className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Python</h9>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                Framework
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaReact className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">React JS</h9>
+                  </div>
+                </div>
+
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiFlask className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Flask</h9>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                Front-End Stack
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaHtml5 className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">HTML</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaCss3 className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">CSS</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiTailwindcss className="text-xl md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Tailwind</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaBootstrap className="text-xl md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Bootsrap</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiPostman className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Postman</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiNpm className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">NPM</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaGitSquare className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">GIT</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiEslint className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Eslint</h9>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                SoftWare & Tools
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <TbBrandVscode className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">VS Code</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaGithub className="text-xl md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Github</h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiGitlab className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Gitlab</h9>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                Agile methodologies and coding principles
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <h9 className="text-sm md:text-sm font-medium">Gitflow</h9>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <h9 className="text-sm md:text-sm font-medium">Clean Code</h9>
+                </div>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h2 className="text-sm md:text-base font-medium text-cplight">
+                Currently or interest in learning...
+              </h2>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <SiTypescript className="text-base md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">
+                      Typescript
+                    </h9>
+                  </div>
+                </div>
+                <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
+                  <div className="flex items-center gap-2 ">
+                    <FaLaravel className="text-xl md:text-2xl" />
+                    <h9 className="text-sm md:text-sm font-medium">Laravel</h9>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

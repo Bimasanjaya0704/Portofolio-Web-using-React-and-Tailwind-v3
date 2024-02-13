@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Blog = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <section id="blog">
-      <div className="py-8 md:py-12 bg-cpdark">
+    <section id="experience">
+      <div className="pb-12  md:py-12 bg-cpdark">
         <div className="container">
           <div className="w-full px-4">
             <div
@@ -14,7 +27,7 @@ const Blog = () => {
               <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
                 Experience
               </h4>
-              <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+              <p className="font-normal text-sm text-justify md:text-center text-cplight mt-1 md-font-medium md:text-lg">
                 As a dedicated professional in the field, I bring a wealth of
                 experience and expertise to every project. My journey in the
                 industry has equipped me with valuable skills and insights,
@@ -61,11 +74,17 @@ const Blog = () => {
           >
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center mb-4">
-                <div className="w-1 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
-                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
-                  DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
-                  SEMARANG - Semarang, Indonesia
-                </h5>
+                <div className="w-2 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
+                {isSmallScreen ? (
+                  <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                    DISKOMINFO KOTA SEMARANG - Semarang, Indonesia
+                  </h5>
+                ) : (
+                  <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                    DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
+                    SEMARANG - Semarang, Indonesia
+                  </h5>
+                )}
               </div>
               <p className="font-normal text-md text-cplight mb-2">
                 <span className="font-bold">Web Developer - Internship</span> |
@@ -92,7 +111,7 @@ const Blog = () => {
           >
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center mb-4">
-                <div className="w-1 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
+                <div className="w-1.5 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
                 <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
                   TONEC VISION - Semarang, Indonesia
                 </h5>
