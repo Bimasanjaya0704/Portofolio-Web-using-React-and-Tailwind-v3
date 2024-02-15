@@ -93,22 +93,22 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="text-slate-300 hover:text-cpdark  md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
-                  <Link to="blog" smooth={true} duration={1400}>
+                  <Link to="experience" smooth={true} duration={500}>
                     Experience
                   </Link>
                 </li>
                 <li className="text-slate-300 hover:text-cpdark  md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
-                  <Link to="skills" smooth={true} duration={1300}>
+                  <Link to="skills" smooth={true} duration={500}>
                     Skills
                   </Link>
                 </li>
                 <li className="text-slate-300 hover:text-cpdark  md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
-                  <Link to="portofolio" smooth={true} duration={1000}>
+                  <Link to="portofolio" smooth={true} duration={500}>
                     Project
                   </Link>
                 </li>
                 <li className="text-slate-300 hover:text-cpdark  md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
-                  <Link to="contact" smooth={true} duration={1500}>
+                  <Link to="contact" smooth={true} duration={500}>
                     Contact
                   </Link>
                 </li>

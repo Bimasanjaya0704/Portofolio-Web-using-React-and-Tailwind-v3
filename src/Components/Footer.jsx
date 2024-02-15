@@ -16,7 +16,7 @@ const Footer = () => {
                 Bima Sanjaya
               </h2>
               <div className="font-bold text-xl text-cpyellow mb-4 xl:text-xl">
-                Hubungi Saya
+                Contact Me At
               </div>
               <p className="font-light text-base text-cplight mb-1 xl:text-base">
                 sanjabim77@gmail.com
@@ -55,22 +55,22 @@ const Footer = () => {
                 Tautan
               </h5>
               <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
-                <Link to="home" smooth={true} duration={1500}>
+                <Link to="home" smooth={true} duration={500}>
                   Home
                 </Link>
               </div>
               <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
-                <Link to="blog" smooth={true} duration={800}>
+                <Link to="experience" smooth={true} duration={500}>
                   Experience
                 </Link>
               </div>
               <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
-                <Link to="skills" smooth={true} duration={1000}>
+                <Link to="skills" smooth={true} duration={500}>
                   Skills
                 </Link>
               </div>
               <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
-                <Link to="portofolio" smooth={true} duration={1300}>
+                <Link to="portofolio" smooth={true} duration={500}>
                   My Project
                 </Link>
               </div>
@@ -86,7 +86,7 @@ const Footer = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           />
-          <div className="w-full px-4 pt-10 pb-8">
+          <div className="w-full px-4 pt-3 pb-8">
             {/* <div
               className="flex justify-center"
               data-aos="fade-zoom-in"
@@ -156,8 +156,7 @@ const Footer = () => {
               data-aos-duration="3000"
             >
               <p className="font-normal text-sm text-cplight lg:text-base">
-                Dibuat dengan <span className="text-red-600">♥</span> oleh Bima
-                Sanjaya menggunakan ReactJS dan Tailwind
+                "Built using React.js and Tailwind technology."
               </p>
             </div>
             <div

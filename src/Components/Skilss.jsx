@@ -56,21 +56,21 @@ const Skills = () => {
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <RiJavascriptFill className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">
+                    <div className="text-sm md:text-sm font-medium">
                       Javascript
-                    </h9>
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiPhp className="text-xl md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">PHP</h9>
+                    <div className="text-sm md:text-sm font-medium">PHP</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaPython className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Python</h9>
+                    <div className="text-sm md:text-sm font-medium">Python</div>
                   </div>
                 </div>
               </div>
@@ -83,14 +83,16 @@ const Skills = () => {
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaReact className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">React JS</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      React JS
+                    </div>
                   </div>
                 </div>
 
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiFlask className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Flask</h9>
+                    <div className="text-sm md:text-sm font-medium">Flask</div>
                   </div>
                 </div>
               </div>
@@ -103,49 +105,55 @@ const Skills = () => {
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaHtml5 className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">HTML</h9>
+                    <div className="text-sm md:text-sm font-medium">HTML</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaCss3 className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">CSS</h9>
+                    <div className="text-sm md:text-sm font-medium">CSS</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiTailwindcss className="text-xl md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Tailwind</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      Tailwind
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaBootstrap className="text-xl md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Bootsrap</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      Bootsrap
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiPostman className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Postman</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      Postman
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiNpm className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">NPM</h9>
+                    <div className="text-sm md:text-sm font-medium">NPM</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaGitSquare className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">GIT</h9>
+                    <div className="text-sm md:text-sm font-medium">GIT</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiEslint className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Eslint</h9>
+                    <div className="text-sm md:text-sm font-medium">Eslint</div>
                   </div>
                 </div>
               </div>
@@ -158,19 +166,21 @@ const Skills = () => {
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <TbBrandVscode className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">VS Code</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      VS Code
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaGithub className="text-xl md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Github</h9>
+                    <div className="text-sm md:text-sm font-medium">Github</div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiGitlab className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Gitlab</h9>
+                    <div className="text-sm md:text-sm font-medium">Gitlab</div>
                   </div>
                 </div>
               </div>
@@ -181,10 +191,12 @@ const Skills = () => {
               </h2>
               <div className="flex flex-wrap gap-2 md:gap-4">
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
-                  <h9 className="text-sm md:text-sm font-medium">Gitflow</h9>
+                  <div className="text-sm md:text-sm font-medium">Gitflow</div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
-                  <h9 className="text-sm md:text-sm font-medium">Clean Code</h9>
+                  <div className="text-sm md:text-sm font-medium">
+                    Clean Code
+                  </div>
                 </div>
               </div>
             </div>
@@ -196,15 +208,17 @@ const Skills = () => {
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <SiTypescript className="text-base md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">
+                    <div className="text-sm md:text-sm font-medium">
                       Typescript
-                    </h9>
+                    </div>
                   </div>
                 </div>
                 <div className="inline-block px-2 py-1 md:px-6 md:py-3 bg-zinc-700 text-cplight cursor-progress">
                   <div className="flex items-center gap-2 ">
                     <FaLaravel className="text-xl md:text-2xl" />
-                    <h9 className="text-sm md:text-sm font-medium">Laravel</h9>
+                    <div className="text-sm md:text-sm font-medium">
+                      Laravel
+                    </div>
                   </div>
                 </div>
               </div>
