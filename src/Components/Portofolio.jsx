@@ -26,7 +26,7 @@ const Portofolio = () => {
               of web development.
             </p>
           </div>
-          <div className="w-full">
+          <div className="max-w-5xl mx-auto">
             {/* Project 1 */}
             <div
               data-aos="zoom-in"
@@ -38,7 +38,13 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img src={Porto1} alt="Web Movies" className="w-full" />
+                <img
+                  src={Porto1}
+                  alt="Web Movies"
+                  className="object-cover"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -96,7 +102,13 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img src={Porto2} alt="TodoList" className="w-full" />
+                <img
+                  src={Porto2}
+                  alt="TodoList"
+                  className=" object-cover"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -146,7 +158,13 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img src={Porto5} alt="Prakalight" className="w-full" />
+                <img
+                  src={Porto5}
+                  alt="Prakalight"
+                  className="object-cover"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -197,7 +215,13 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img src={Porto6} alt="wawasan edukasi" className="w-full" />
+                <img
+                  src={Porto6}
+                  alt="wawasan edukasi"
+                  className="object-cover"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -246,7 +270,13 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img src={Porto3} alt="Lesyuk" className="w-full" />
+                <img
+                  src={Porto3}
+                  alt="Lesyuk"
+                  className="object-cover"
+                  width={400}
+                  height={200}
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -308,7 +338,9 @@ const Portofolio = () => {
                 <img
                   src={Porto4}
                   alt="Website Peringkas Teks"
-                  className="w-full"
+                  className="object-cover"
+                  width={400}
+                  height={200}
                 />
               </div>
               <div className="md:w-1/2">

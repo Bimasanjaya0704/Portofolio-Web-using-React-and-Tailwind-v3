@@ -109,7 +109,9 @@ const Beranda = () => {
                   <img
                     src={imgberanda}
                     alt="imgberanda"
-                    className="object-cover mx-auto"
+                    className="max-w-full mx-auto object-cover"
+                    width="400"
+                    height="200"
                   />
                 </div>
                 <div
