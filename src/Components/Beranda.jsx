@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import imgberanda from "../Assets/imgberanda.png";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-import "animate.css";
+import imgberanda from "../Assets/imgberanda.webp";
 import { IoIosDownload } from "react-icons/io";
 import {
   FaFacebookSquare,
@@ -18,9 +15,13 @@ const Beranda = () => {
   };
 
   useEffect(() => {
-    AOS.init({
-      once: true,
-    });
+    const initAOS = async () => {
+      const AOS = await import("aos");
+      AOS.init({
+        once: true,
+      });
+    };
+    initAOS();
   }, []);
 
   const handleDownload = () => {
@@ -32,7 +33,7 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond ">
+        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond">
           <div className="container">
             <div className="flex flex-wrap lg:mt-24">
               <div
@@ -93,7 +94,7 @@ const Beranda = () => {
 
                 <button
                   onClick={handleDownload}
-                  className="text-sm lg:font-semibold font-semibold flex items-center text-black bg-cpyellow py-2 px-3 mt-10  rounded-md hover:shadow-xl hover:bg-cplight md:font-semibold md:text-lg md:py-2 md:px-5 animate__animated animate__headShake animate__slow animate__infinite"
+                  className="text-sm lg:font-semibold font-semibold flex items-center text-black bg-cpyellow py-2 px-3 mt-10  rounded-md hover:shadow-xl hover:bg-cplight md:font-semibold md:text-lg md:py-2 md:px-5"
                 >
                   <IoIosDownload className="mr-2 text-lg lg:text-2xl " />
                   Download CV
@@ -110,8 +111,6 @@ const Beranda = () => {
                     alt="imgberanda"
                     className="max-w-full mx-auto object-cover"
                   />
-
-                  {/* Class animasi =       className="max-w-full mx-auto object-cover "*/}
                 </div>
                 <div
                   className="w-full flex items-center justify-center gap-3 md:flex-row md:justify-end md:items-center md:gap-8 mt-24 pb-12 md:pb-0"
