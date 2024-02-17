@@ -26,7 +26,7 @@ const Portofolio = () => {
               of web development.
             </p>
           </div>
-          <div className="max-w-5xl mx-auto">
+          <div className="w-full">
             {/* Project 1 */}
             <div
               data-aos="zoom-in"
@@ -38,15 +38,9 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto1}
-                  alt="Web Movies"
-                  className="object-cover"
-                  width="400"
-                  height="200"
-                />
+                <img src={Porto1} alt="Web Movies" className="w-full" />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     BIMovies
@@ -73,14 +67,14 @@ const Portofolio = () => {
                     href="https://webmovies-bimovies.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
                   </a>
                   <a
                     href="https://github.com/Bimasanjaya0704/Web-movies-using-ReactJS-and-Tailwind-with-TMDB-API"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -102,15 +96,9 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto2}
-                  alt="TodoList"
-                  className="object-cover"
-                  width="400"
-                  height="200"
-                />
+                <img src={Porto2} alt="TodoList" className="w-full" />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     TodoList
@@ -138,7 +126,7 @@ const Portofolio = () => {
                     href="https://github.com/Bimasanjaya0704/Todo-list-with-ReactJS"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <PiGithubLogoFill />
                     Go to Repo
@@ -158,15 +146,9 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto5}
-                  alt="Prakalight"
-                  className="object-cover"
-                  width="400"
-                  height="200"
-                />
+                <img src={Porto5} alt="Prakalight" className="w-full" />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Prakalight
@@ -195,7 +177,7 @@ const Portofolio = () => {
                     href="https://prakalight.live/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -215,15 +197,9 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto6}
-                  alt="wawasan edukasi"
-                  className="object-cover"
-                  width="400"
-                  height="200"
-                />
+                <img src={Porto6} alt="wawasan edukasi" className="w-full" />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Wawasan Edukasi
@@ -250,7 +226,7 @@ const Portofolio = () => {
                     href="https://staging.wawasanedukasi.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -270,15 +246,9 @@ const Portofolio = () => {
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto3}
-                  alt="Lesyuk"
-                  className="object-cover"
-                  width="400"
-                  height="200"
-                />
+                <img src={Porto3} alt="Lesyuk" className="w-full" />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Lesyuk
@@ -306,7 +276,7 @@ const Portofolio = () => {
                     href="https://lesyuk.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -315,7 +285,7 @@ const Portofolio = () => {
                     href="https://github.com/Bimasanjaya0704/lesyuk_fe"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <PiGithubLogoFill />
                     Go to Repo
@@ -338,12 +308,10 @@ const Portofolio = () => {
                 <img
                   src={Porto4}
                   alt="Website Peringkas Teks"
-                  className="object-cover"
-                  width="400"
-                  height="200"
+                  className="w-full"
                 />
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-1/2">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Website Peringkas Teks
@@ -370,7 +338,7 @@ const Portofolio = () => {
                     href="https://github.com/Bimasanjaya0704/peringkas_teks_otomatis_MMR"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 py-2 text-sm md:px-4 md:py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
                   >
                     <PiGithubLogoFill />
                     Go to Repo

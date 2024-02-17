@@ -110,8 +110,6 @@ const Beranda = () => {
                     src={imgberanda}
                     alt="imgberanda"
                     className="object-cover mx-auto"
-                    width="400"
-                    height="200"
                   />
                 </div>
                 <div
