@@ -26,7 +26,7 @@ const Portofolio = () => {
               of web development.
             </p>
           </div>
-          <div className=" w-full">
+          <div className="max-w-5xl mx-auto">
             {/* Project 1 */}
             <div
               data-aos="zoom-in"
@@ -42,11 +42,11 @@ const Portofolio = () => {
                   src={Porto1}
                   alt="Web Movies"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     BIMovies
@@ -65,7 +65,7 @@ const Portofolio = () => {
                   "themoviedb."
                 </p>
                 <div
-                  className="flex items-center mt-12 gap-2"
+                  className="flex items-center mt-4 gap-2"
                   data-aos="zoom-in"
                   data-aos-duration="1200"
                 >
@@ -106,11 +106,11 @@ const Portofolio = () => {
                   src={Porto2}
                   alt="TodoList"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     TodoList
@@ -162,11 +162,11 @@ const Portofolio = () => {
                   src={Porto5}
                   alt="Prakalight"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Prakalight
@@ -219,11 +219,11 @@ const Portofolio = () => {
                   src={Porto6}
                   alt="wawasan edukasi"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Wawasan Edukasi
@@ -274,11 +274,11 @@ const Portofolio = () => {
                   src={Porto3}
                   alt="Lesyuk"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Lesyuk
@@ -339,11 +339,11 @@ const Portofolio = () => {
                   src={Porto4}
                   alt="Website Peringkas Teks"
                   className="object-cover"
-                  width="800"
-                  height="600"
+                  width="400"
+                  height="200"
                 />
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-2/3">
                 <h3 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Website Peringkas Teks
@@ -362,7 +362,7 @@ const Portofolio = () => {
                   domains.
                 </p>
                 <div
-                  className="flex items-center mt-8 gap-2"
+                  className="flex items-center mt-4 gap-2"
                   data-aos="zoom-in"
                   data-aos-duration="1200"
                 >

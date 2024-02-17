@@ -17,7 +17,7 @@ const Beranda = () => {
   useEffect(() => {
     const initAOS = async () => {
       const AOS = await import("aos");
-      AOS.init({
+      AOS.default.init({
         once: true,
       });
     };
@@ -102,16 +102,16 @@ const Beranda = () => {
               </div>
               <div className="w-full self-end px-4 lg:w-1/2">
                 <div
-                  className="relative mt-10 lg:mt-9 lg:right-0"
+                  className="mt-10 lg:mt-9 lg:right-0"
                   data-aos="zoom-in-up"
                   data-aos-duration="2000"
                 >
                   <img
                     src={imgberanda}
                     alt="imgberanda"
-                    className=" object-cover"
-                    width="800"
-                    height="600"
+                    className="object-cover mx-auto"
+                    width="400"
+                    height="200"
                   />
                 </div>
                 <div
