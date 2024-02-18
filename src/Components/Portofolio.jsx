@@ -41,9 +41,7 @@ const Portofolio = () => {
                 <img
                   src={Porto1}
                   alt="Web Movies"
-                  className="object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full object-cover"
                 />
               </div>
               <div className="md:w-1/2">
@@ -105,9 +103,7 @@ const Portofolio = () => {
                 <img
                   src={Porto2}
                   alt="TodoList"
-                  className=" object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full  object-cover"
                 />
               </div>
               <div className="md:w-1/2">
@@ -161,9 +157,7 @@ const Portofolio = () => {
                 <img
                   src={Porto5}
                   alt="Prakalight"
-                  className="object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full object-cover"
                 />
               </div>
               <div className="md:w-1/2">
@@ -218,9 +212,7 @@ const Portofolio = () => {
                 <img
                   src={Porto6}
                   alt="wawasan edukasi"
-                  className="object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full object-cover"
                 />
               </div>
               <div className="md:w-1/2">
@@ -273,9 +265,7 @@ const Portofolio = () => {
                 <img
                   src={Porto3}
                   alt="Lesyuk"
-                  className="object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full object-cover"
                 />
               </div>
               <div className="md:w-1/2">
@@ -338,9 +328,7 @@ const Portofolio = () => {
                 <img
                   src={Porto4}
                   alt="Website Peringkas Teks"
-                  className="object-cover"
-                  width={400}
-                  height={200}
+                  className="w-full object-cover"
                 />
               </div>
               <div className="md:w-1/2">
