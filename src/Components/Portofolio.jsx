@@ -18,9 +18,9 @@ const Portofolio = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
+            <h1 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
               My Project
-            </h4>
+            </h1>
             <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
               Explore some of my notable projects and contributions in the field
               of web development.
@@ -47,11 +47,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     BIMovies
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
@@ -111,11 +111,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     TodoList
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
@@ -167,11 +167,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Prakalight
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
@@ -224,11 +224,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Wawasan Edukasi
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
@@ -279,11 +279,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Lesyuk
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
@@ -344,11 +344,11 @@ const Portofolio = () => {
                 />
               </div>
               <div className="md:w-1/2">
-                <h3 data-aos="fade-up" data-aos-duration="2000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">
                   <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
                     Website Peringkas Teks
                   </div>
-                </h3>
+                </h2>
                 <p
                   className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"

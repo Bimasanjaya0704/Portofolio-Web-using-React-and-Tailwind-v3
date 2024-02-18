@@ -37,6 +37,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
+                    id="name"
                     name="name"
                     className="bg-cplight rounded-md w-full py-2 px-3 mb-5 text-cpdark focus:outline-none focus:ring-cpdark focus:ring-1 focus:border-cpyellow focus:bg-white"
                   />
@@ -50,8 +51,9 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
+                    id="email"
                     name="email"
-                    className="bg-cplight rounded-md w-full py-2 px-3 mb-5 text-cpdark focus:outline-none focus:ring-cpdark focus:ring-1 focus:border-cpdark focus:bg-white"
+                    className="bg-cplight rounded-md w-full py-2 px-3 mb-5 text-cpdark focus:outline-none focus:ring-cpdark focus:ring-1 focus:border-cpyellow focus:bg-white"
                   />
                 </div>
                 <div className="text-left">
@@ -62,8 +64,8 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    name="message"
                     id="message"
+                    name="message"
                     className="w-full bg-cplight rounded-md py-2 px-3 mb-5 text-cpdark focus:outline-none focus:ring-cpdark focus:ring-1 focus:border-cpyellow focus:bg-white"
                   ></textarea>
                 </div>

@@ -12,9 +12,9 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <h2 className="font-bold text-2xl text-white uppercase mb-4 xl:text-3xl">
+              <h1 className="font-bold text-2xl text-white uppercase mb-4 xl:text-3xl">
                 Bima Sanjaya
-              </h2>
+              </h1>
               <div className="font-bold text-xl text-cpyellow mb-4 xl:text-xl">
                 Contact Me At
               </div>
@@ -51,9 +51,9 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <h5 className="font-bold text-xl text-cpyellow mb-4 xl:text-2xl">
+              <h2 className="font-bold text-xl text-cpyellow mb-4 xl:text-2xl">
                 Tautan
-              </h5>
+              </h2>
               <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="home" smooth={true} duration={500}>
                   Home

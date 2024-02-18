@@ -43,12 +43,12 @@ const Beranda = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1200"
               >
-                <h2 className="text-sm font-semibold text-white lg:text-3xl">
+                <h1 className="text-sm font-semibold text-white lg:text-3xl">
                   Hello Buds
-                </h2>
-                <h1 className="font-bold text-cpyellow text-2xl mt-3 lg:text-5xl xl:text-6xl">
-                  I am Bima Sanjaya
                 </h1>
+                <h2 className="font-bold text-cpyellow text-2xl mt-3 lg:text-5xl xl:text-6xl">
+                  I am Bima Sanjaya
+                </h2>
                 <p className="font-medium text-cplight mt-2 text-sm mb-3 md:mb-5 md:text-base xl:text-lg">
                   i'm a{" "}
                   <span className="text-cpyellow font-bold">
@@ -118,14 +118,15 @@ const Beranda = () => {
                   className="w-full flex items-center justify-center gap-3 md:flex-row md:justify-end md:items-center md:gap-8 mt-24 pb-12 md:pb-0"
                   data-aos="fade-up"
                 >
-                  <h3 className="font-semibold text-white pt-2 text-base max-w-md lg:text-xl">
+                  <h2 className="font-semibold text-white pt-2 text-base max-w-md lg:text-xl">
                     Find Me On
-                  </h3>
+                  </h2>
                   <div className="flex items-center gap-1.5 md:gap-6">
                     <a
                       href="https://github.com/Bimasanjaya0704"
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Visit my GitHub profile"
                     >
                       <FaGithubSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
@@ -133,6 +134,7 @@ const Beranda = () => {
                       href="https://www.linkedin.com/in/bimasanjaya/"
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Connect with me on LinkedIn"
                     >
                       <FaLinkedin className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
@@ -140,6 +142,7 @@ const Beranda = () => {
                       href="https://www.instagram.com/bim.sanss"
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Follow me on Instagram"
                     >
                       <FaInstagramSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
@@ -147,6 +150,7 @@ const Beranda = () => {
                       href="https://facebook.com/bima.c.cetia.1"
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Connect with me on Facebook"
                     >
                       <FaFacebookSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
                     </a>
