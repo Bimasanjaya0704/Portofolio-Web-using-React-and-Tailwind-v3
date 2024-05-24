@@ -16,7 +16,7 @@ const Blog = () => {
   }, []);
   return (
     <section id="experience">
-      <div className="pb-12  md:py-12 bg-cpdark">
+      <div className="pb-12  md:py-12 bg-white dark:bg-cpdark">
         <div className="container">
           <div className="w-full px-4">
             <div
@@ -27,7 +27,7 @@ const Blog = () => {
               <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
                 Experience
               </h4>
-              <p className="font-normal text-sm text-justify md:text-center text-cplight mt-1 md-font-medium md:text-lg">
+              <p className="font-normal text-sm text-justify md:text-center text-cpdark  dark:text-cplight mt-1 md-font-medium md:text-lg">
                 As a dedicated professional in the field, I bring a wealth of
                 experience and expertise to every project. My journey in the
                 industry has equipped me with valuable skills and insights,
@@ -43,16 +43,16 @@ const Blog = () => {
           >
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center mb-4">
-                <div className="w-1.5 bg-green-600 h-16 hover:bg-green-400 transition-colors"></div>
-                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                <div className="w-1.5 dark:bg-green-600 h-16 dark:hover:bg-green-400 bg-green-400 hover:bg-green-600 transition-colors "></div>
+                <h5 className="font-bold text-lg text-cpdark dark:text-cpyellow mb-2 ml-4">
                   PRAKALIGHT - Semarang, Indonesia
                 </h5>
               </div>
-              <p className="font-normal text-md text-cplight mb-2">
+              <p className="font-normal text-md text-cpdark dark:text-cplight mb-2">
                 <span className="font-bold">Front-End Developer</span> | Jan
                 2023 - Present
               </p>
-              <p className="list-disc list-inside mb-4 font-normal text-sm  text-cplight mt-1 md-font-medium md:text-lg text-justify">
+              <p className="list-disc list-inside mb-4 font-normal text-sm  text-cpdark dark:text-cplight mt-1 md-font-medium md:text-lg text-justify">
                 As a website interface developer, my role involves contributing
                 to the development of website interfaces tailored to meet
                 clients' needs. This entails collaborating closely with the
@@ -76,21 +76,21 @@ const Blog = () => {
               <div className="flex items-center mb-4">
                 <div className="w-2 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
                 {isSmallScreen ? (
-                  <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                  <h5 className="font-bold text-lg text-cpdark dark:text-cpyellow mb-2 ml-4">
                     DISKOMINFO KOTA SEMARANG - Semarang, Indonesia
                   </h5>
                 ) : (
-                  <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                  <h5 className="font-bold text-lg text-cpdark dark:text-cpyellow mb-2 ml-4">
                     DINAS KOMUNIKASI, INFORMATIKA, STATISTIK & PERSANDIAN KOTA
                     SEMARANG - Semarang, Indonesia
                   </h5>
                 )}
               </div>
-              <p className="font-normal text-md text-cplight mb-2">
+              <p className="font-normal text-md text-cpdark dark:text-cplight mb-2">
                 <span className="font-bold">Web Developer - Internship</span> |
                 Nov 2021 - Jan 2022
               </p>
-              <p className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg text-justify">
+              <p className="list-disc list-inside mb-4 font-normal text-sm text-cpdark dark:text-cplight mt-1 md-font-medium md:text-lg text-justify">
                 In my role as a member of the development team, I actively
                 assist in the development of our company's website, ensuring its
                 ongoing improvement and functionality. Collaborating closely
@@ -112,17 +112,17 @@ const Blog = () => {
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center mb-4">
                 <div className="w-1.5 bg-neutral-800 h-16 hover:bg-green-600 transition-colors"></div>
-                <h5 className="font-bold text-lg text-cpyellow mb-2 ml-4">
+                <h5 className="font-bold text-lg text-cpdark dark:text-cpyellow mb-2 ml-4">
                   TONEC VISION - Semarang, Indonesia
                 </h5>
               </div>
-              <p className="font-normal text-md text-cplight mb-2">
+              <p className="font-normal text-md text-cpdark dark:text-cplight mb-2">
                 <span className="font-bold">
-                  Foto&Videographer - Internship
+                  Foto & Videographer - Internship
                 </span>{" "}
                 | Mar 2018 to Apr 2018
               </p>
-              <p className="list-disc list-inside mb-4 font-normal text-sm text-cplight mt-1 md-font-medium md:text-lg text-justify">
+              <p className="list-disc list-inside mb-4 font-normal text-sm text-cpdark dark:text-cplight mt-1 md-font-medium md:text-lg text-justify">
                 In my role, I engage in a diverse range of tasks that contribute
                 to our creative endeavors. This includes conducting photo and
                 video shoots to capture compelling visual content. Following the

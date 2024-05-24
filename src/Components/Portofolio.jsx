@@ -12,7 +12,7 @@ import { PiGithubLogoFill } from "react-icons/pi";
 const Portofolio = () => {
   return (
     <section id="portofolio">
-      <div className="py-8 md:py-12 bg-cpdark">
+      <div className="py-8 md:py-12 bg-white dark:bg-cpdark">
         <div className="container">
           <div
             className="max-w-5xl mx-auto text-center mb-8 md:px-14"
@@ -22,7 +22,7 @@ const Portofolio = () => {
             <h1 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
               My Project
             </h1>
-            <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+            <p className="font-normal text-sm text-center text-cpdark dark:text-cplight mt-1 md-font-medium md:text-lg">
               Explore some of my notable projects and contributions in the field
               of web development.
             </p>
@@ -32,27 +32,33 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1200"
                 className="mb-0 md:mb-0 md:w-1/2"
               >
-                <img
-                  src={Porto4}
-                  alt="Website Peringkas Teks"
-                  className="w-full object-cover"
-                />
+                <a
+                  href="https://github.com/Bimasanjaya0704/Automatic-Text_summaryzation-using-MMR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Porto4}
+                    alt="Website Peringkas Teks"
+                    className="w-full object-cover"
+                  />
+                </a>
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     Website Peringkas Teks
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -72,7 +78,7 @@ const Portofolio = () => {
                     href="https://github.com/Bimasanjaya0704/peringkas_teks_otomatis_MMR"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <PiGithubLogoFill />
                     Go to Repo
@@ -84,7 +90,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -99,12 +105,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     Lesyuk
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -125,7 +131,7 @@ const Portofolio = () => {
                     href="https://lesyuk.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -146,7 +152,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -161,12 +167,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     Todolist using Laravel 10
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -185,14 +191,14 @@ const Portofolio = () => {
                     href="https://todolistajayuk.000webhostapp.com/todolist"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
                   </a>
                   <a
                     href="https://github.com/Bimasanjaya0704/Todolist-Laravel"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -206,7 +212,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -221,12 +227,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     Prakalight
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -248,7 +254,7 @@ const Portofolio = () => {
                     href="https://prakalight.live/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -261,7 +267,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -276,12 +282,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     Wawasan Edukasi
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -301,7 +307,7 @@ const Portofolio = () => {
                     href="https://staging.wawasanedukasi.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
@@ -313,7 +319,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -328,12 +334,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     BIMovies
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -353,14 +359,14 @@ const Portofolio = () => {
                     href="https://webmovies-bimovies.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <CgArrowTopRightR />
                     Visit
                   </a>
                   <a
                     href="https://github.com/Bimasanjaya0704/Web-movies-using-ReactJS-and-Tailwind-with-TMDB-API"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -375,7 +381,7 @@ const Portofolio = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1200"
-              className="mb-5 p-4 bg-cplight flex flex-col md:flex-row gap-8 rounded-md"
+              className="mb-5 p-4 bg-white shadow-lg dark:bg-zinc-700 flex flex-col md:flex-row gap-8 rounded-md"
             >
               <div
                 data-aos="zoom-in"
@@ -390,12 +396,12 @@ const Portofolio = () => {
               </div>
               <div className="md:w-1/2">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <div className="font-bold text-base text-cpdark mb-1 lg:text-2xl">
+                  <div className="font-bold text-base text-cpdark dark:text-cplight mb-1 lg:text-2xl">
                     TodoList
                   </div>
                 </h2>
                 <p
-                  className="font-normal pr-4 text-sm text-secondary text-justify lg:text-base lg:font-medium mt-3"
+                  className="font-normal pr-4 text-sm text-cpdark dark:text-cplight text-secondary text-justify lg:text-base lg:font-medium mt-3"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -416,7 +422,7 @@ const Portofolio = () => {
                     href="https://github.com/Bimasanjaya0704/Todo-list-with-ReactJS"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 bg-cpyellow text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold hover:bg-cpdark hover:text-cpyellow"
+                    className="flex items-center gap-2 bg-cpyellow text-cplight dark:text-cpdark px-3 text-sm md:px-4 py-2 rounded-md md:text-base font-semibold dark:hover:bg-cpdark dark:hover:text-cpyellow hover:bg-cplight hover:text-cpyellow"
                   >
                     <PiGithubLogoFill />
                     Go to Repo

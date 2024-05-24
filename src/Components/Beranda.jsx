@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import imgberanda from "../Assets/imgberanda.webp";
+import imgberanda from "../Assets/photo.webp";
 import { IoIosDownload } from "react-icons/io";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaGithubSquare,
+  FaLinkedin,
 } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
 
 const Beranda = () => {
   const [isTextExpanded, setIsTextExpanded] = useState(false);
@@ -33,7 +33,7 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-28 md:pt-20 pb-5 bg-cpsecond">
+        <div className="pt-28 md:pt-20 pb-5 bg-bglight dark:bg-cpsecond">
           <div className="container">
             <div className="flex flex-wrap lg:mt-24">
               <div
@@ -43,21 +43,21 @@ const Beranda = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1200"
               >
-                <h1 className="text-sm font-semibold text-white lg:text-3xl">
+                <h1 className="text-sm font-semibold text-dark dark:text-cplight lg:text-3xl">
                   Hello Buds
                 </h1>
                 <h2 className="font-bold text-cpyellow text-2xl mt-3 lg:text-5xl xl:text-6xl">
                   I am Bima Sanjaya
                 </h2>
-                <p className="font-medium text-cplight mt-2 text-sm mb-3 md:mb-5 md:text-base xl:text-lg">
-                  i'm a{" "}
+                <p className="font-medium text-cpdark dark:text-cplight mt-2 text-sm mb-3 md:mb-5 md:text-base xl:text-lg">
+                  I'm a{" "}
                   <span className="text-cpyellow font-bold">
                     Front-End Developer
                   </span>
                 </p>
                 <div>
                   <p
-                    className={`font-small text-cplight leading-relaxed text-justify lg:mr-6 text-md md:text-lg lg:font-medium ${
+                    className={`font-small text-cpdark dark:text-cplight leading-relaxed text-justify lg:mr-6 text-md md:text-lg lg:font-medium ${
                       isTextExpanded
                         ? ""
                         : "overflow-hidden line-clamp-3 lg:line-clamp-none"
@@ -94,7 +94,7 @@ const Beranda = () => {
 
                 <button
                   onClick={handleDownload}
-                  className="text-sm lg:font-semibold font-semibold flex items-center text-black bg-cpyellow py-2 px-3 mt-10  rounded-md hover:shadow-xl hover:bg-cplight md:font-semibold md:text-lg md:py-2 md:px-5"
+                  className="text-sm lg:font-semibold font-semibold flex items-center text-cplight dark:text-cpdark bg-cpyellow py-2 px-3 mt-10 rounded-md hover:shadow-xl hover:bg-cplight md:font-semibold md:text-lg md:py-2 md:px-5"
                 >
                   <IoIosDownload className="mr-2 text-lg lg:text-2xl " />
                   Download CV
@@ -118,7 +118,7 @@ const Beranda = () => {
                   className="w-full flex items-center justify-center gap-3 md:flex-row md:justify-end md:items-center md:gap-8 mt-24 pb-12 md:pb-0"
                   data-aos="fade-up"
                 >
-                  <h2 className="font-semibold text-white pt-2 text-base max-w-md lg:text-xl">
+                  <h2 className="font-semibold text-cpdark dark:text-cplight pt-2 text-base max-w-md lg:text-xl">
                     Find Me On
                   </h2>
                   <div className="flex items-center gap-1.5 md:gap-6">
@@ -128,7 +128,7 @@ const Beranda = () => {
                       rel="noreferrer"
                       aria-label="Visit my GitHub profile"
                     >
-                      <FaGithubSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaGithubSquare className="text-2xl md:text-4xl text-cpdark dark:text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/bimasanjaya/"
@@ -136,7 +136,7 @@ const Beranda = () => {
                       rel="noreferrer"
                       aria-label="Connect with me on LinkedIn"
                     >
-                      <FaLinkedin className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaLinkedin className="text-2xl md:text-4xl text-cpdark dark:text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://www.instagram.com/bim.sanss"
@@ -144,7 +144,7 @@ const Beranda = () => {
                       rel="noreferrer"
                       aria-label="Follow me on Instagram"
                     >
-                      <FaInstagramSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaInstagramSquare className="text-2xl md:text-4xl text-cpdark dark:text-cplight hover:text-cpyellow" />
                     </a>
                     <a
                       href="https://facebook.com/bima.c.cetia.1"
@@ -152,7 +152,7 @@ const Beranda = () => {
                       rel="noreferrer"
                       aria-label="Connect with me on Facebook"
                     >
-                      <FaFacebookSquare className="text-2xl md:text-4xl text-cplight hover:text-cpyellow" />
+                      <FaFacebookSquare className="text-2xl md:text-4xl text-cpdark dark:text-cplight hover:text-cpyellow" />
                     </a>
                   </div>
                 </div>

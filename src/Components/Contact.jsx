@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="py-8 md:py-12 bg-cpdark">
+      <div className="py-8 md:py-12 bg-white dark:bg-cpdark">
         <div className="container">
           <div className="w-full px-4">
             <div
@@ -14,7 +14,7 @@ const Contact = () => {
               <h4 className="font-bold text-xl uppercase text-cpyellow mb-2 lg:text-2xl">
                 Contact Me
               </h4>
-              <p className="font-normal text-sm text-center text-cplight mt-1 md-font-medium md:text-lg">
+              <p className="font-normal text-sm text-center text-cpdark dark:text-cplight mt-1 md-font-medium md:text-lg">
                 If you are interested in collaborating or have any questions,
                 please contact me through one of the methods below:
               </p>
@@ -31,7 +31,7 @@ const Contact = () => {
                 <div className="text-left">
                   <label
                     htmlFor="name"
-                    className="font-semibold text-base text-cpyellow mb-1"
+                    className="font-semibold text-base text-cpdark dark:text-cpyellow mb-1"
                   >
                     Name
                   </label>
@@ -45,7 +45,7 @@ const Contact = () => {
                 <div className="text-left">
                   <label
                     htmlFor="email"
-                    className="font-semibold text-base text-cpyellow mb-1"
+                    className="font-semibold text-base text-cpdark dark:text-cpyellow mb-1"
                   >
                     Email
                   </label>
@@ -59,7 +59,7 @@ const Contact = () => {
                 <div className="text-left">
                   <label
                     htmlFor="message"
-                    className="font-semibold text-base text-cpyellow mb-1"
+                    className="font-semibold text-base text-cpdark dark:text-cpyellow mb-1"
                   >
                     Message
                   </label>

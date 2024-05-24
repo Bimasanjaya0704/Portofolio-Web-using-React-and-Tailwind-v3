@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="pt-36 bg-cpdark">
+    <div className="pt-36 bg-white dark:bg-cpdark">
       <div className="container">
         <div className="flex flex-wrap ">
           <div className="w-full mx-auto md:flex md:justify-between md:max-w-4xl">
@@ -12,19 +12,19 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <h1 className="font-bold text-2xl text-white uppercase mb-4 xl:text-3xl">
+              <h1 className="font-bold text-2xl text-cpdark dark:text-white uppercase mb-4 xl:text-3xl">
                 Bima Sanjaya
               </h1>
               <div className="font-bold text-xl text-cpyellow mb-4 xl:text-xl">
                 Contact Me At
               </div>
-              <p className="font-light text-base text-cplight mb-1 xl:text-base">
+              <p className="font-light text-base text-cpdark dark:text-cplight mb-1 xl:text-base">
                 sanjabim77@gmail.com
               </p>
-              <p className="font-light text-base text-cplight mb-1 xl:text-base">
+              <p className="font-light text-base text-cpdark dark:text-cplight mb-1 xl:text-base">
                 Gg. Dahlia I No.4, Sekaran
               </p>
-              <p className="font-light text-base text-cplight mb-1 xl:text-base">
+              <p className="font-light text-base text-cpdark dark:text-cplight mb-1 xl:text-base">
                 Semarang
               </p>
             </div>
@@ -54,27 +54,27 @@ const Footer = () => {
               <h2 className="font-bold text-xl text-cpyellow mb-4 xl:text-2xl">
                 Tautan
               </h2>
-              <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
+              <div className="font-light cursor-pointer text-base text-cpdark dark:text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="home" smooth={true} duration={500}>
                   Home
                 </Link>
               </div>
-              <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
+              <div className="font-light cursor-pointer text-base text-cpdark dark:text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="experience" smooth={true} duration={500}>
                   Experience
                 </Link>
               </div>
-              <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
+              <div className="font-light cursor-pointer text-base text-cpdark dark:text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="skills" smooth={true} duration={500}>
                   Skills
                 </Link>
               </div>
-              <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
+              <div className="font-light cursor-pointer text-base text-cpdark dark:text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="portofolio" smooth={true} duration={500}>
                   My Project
                 </Link>
               </div>
-              <div className="font-light cursor-pointer text-base text-cplight mb-1 xl:text-base hover:text-cpyellow">
+              <div className="font-light cursor-pointer text-base text-cpdark dark:text-cplight mb-1 xl:text-base hover:text-cpyellow">
                 <Link to="contact" smooth={true} duration={500}>
                   Contact
                 </Link>
@@ -155,7 +155,7 @@ const Footer = () => {
               data-aos-offset="0"
               data-aos-duration="3000"
             >
-              <p className="font-normal text-sm text-cplight lg:text-base">
+              <p className="font-normal text-sm text-cpdark dark:text-cplight lg:text-base">
                 "Built using React.js and Tailwind technology."
               </p>
             </div>

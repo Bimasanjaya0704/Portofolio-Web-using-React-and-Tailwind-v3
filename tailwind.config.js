@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         bgdark: "#20364b",
+        bglight: "	#FFFFFF",
         cpyellow: "#fdc11f",
         cplight: "#F3EFE0",
         cpdark: "#0F0F0F",
@@ -26,4 +27,5 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
