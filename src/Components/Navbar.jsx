@@ -41,7 +41,7 @@ const NavBar = () => {
       <div className="container">
         <div className="justify-between px-4 lg:max-w-7xl lg:items-center lg:flex lg:px-8">
           <div>
-            <div className="flex items-center justify-between py-5 md:py-7 lg:block">
+            <div className="flex items-center justify-between py-3 md:py-5 lg:block">
               <button
                 type="button"
                 onClick={toggleDarkMode}
