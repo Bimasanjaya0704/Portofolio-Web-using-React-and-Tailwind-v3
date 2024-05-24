@@ -33,9 +33,9 @@ const Beranda = () => {
   return (
     <section id="home">
       <div>
-        <div className="pt-28 md:pt-20 pb-5 bg-bglight dark:bg-cpsecond">
+        <div className="pt-28 pb-5 bg-bglight dark:bg-cpsecond">
           <div className="container">
-            <div className="flex flex-wrap lg:mt-24">
+            <div className="flex flex-wrap">
               <div
                 className="w-full self-center px-4 lg:w-1/2"
                 data-aos="fade-right"
@@ -102,7 +102,7 @@ const Beranda = () => {
               </div>
               <div className="w-full self-end px-4 lg:w-1/2">
                 <div
-                  className="mt-10 lg:mt-9 lg:right-0"
+                  className="mt-10 lg:right-0"
                   data-aos="zoom-in-up"
                   data-aos-duration="2000"
                 >

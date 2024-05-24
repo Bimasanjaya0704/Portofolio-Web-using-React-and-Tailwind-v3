@@ -21,7 +21,7 @@ const NavBar = () => {
       setNavbar(!isTop);
     };
 
-    if (!window.matchMedia("(max-width: 768px)").matches) {
+    if (!window.matchMedia("(max-width: 1024px)").matches) {
       window.addEventListener("scroll", handleScroll);
     }
 
@@ -41,7 +41,7 @@ const NavBar = () => {
       <div className="container">
         <div className="justify-between px-4 lg:max-w-7xl lg:items-center lg:flex lg:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 lg:block">
+            <div className="flex items-center justify-between py-3 md:py-5">
               <button
                 type="button"
                 onClick={toggleDarkMode}
@@ -52,7 +52,7 @@ const NavBar = () => {
 
               <div className="lg:hidden">
                 <button
-                  className={`p-2 text-cpdark dark:text-slate-300 rounded-md outline-none focus:border-gray-400 focus:border md:hidden`}
+                  className={`p-2 text-cpdark dark:text-slate-300 rounded-md outline-none focus:border-gray-400 focus:border lg:hidden`}
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -88,34 +88,34 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center">
             <div
-              className={`flex-1 justify-self-center pb-5 lg:block lg:pb-0 lg:mt-0 ${
+              className={`flex-1 justify-self-center pb-5 lg:block lg:pb-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center md:justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 lg:text-base">
-                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
+              <ul className="items-center lg:justify-center space-y-2 lg:flex lg:space-x-6 lg:space-y-0 lg:text-base">
+                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark px-4 py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="home" smooth={true} duration={500}>
                     Home
                   </Link>
                 </li>
-                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
+                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark px-4 py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="experience" smooth={true} duration={500}>
                     Experience
                   </Link>
                 </li>
-                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
+                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark px-4 py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="skills" smooth={true} duration={500}>
                     Skills
                   </Link>
                 </li>
-                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
+                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark px-4 py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="portofolio" smooth={true} duration={500}>
                     Project
                   </Link>
                 </li>
-                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark md:px-4 md:py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
+                <li className="text-cpdark dark:text-slate-300 hover:text-cpdark px-4 py-2 hover:px-4 hover:py-2 hover:bg-cpyellow hover:rounded-md cursor-pointer lg:text-md lg:font-semibold">
                   <Link to="contact" smooth={true} duration={500}>
                     Contact
                   </Link>
