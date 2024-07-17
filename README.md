@@ -8,7 +8,7 @@ Welcome to my portfolio! This is a portfolio website built using React and Tailw
 - **Easy Navigation:** Intuitive menu to explore projects and information.
 - **Smooth Animations:** Simple animations to enhance user experience.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
 - **React:** 
 - **Tailwind CSS:** 
@@ -25,6 +25,7 @@ Welcome to my portfolio! This is a portfolio website built using React and Tailw
    **npm start**
 
 ## Penjelasan Struktur Proyek
+
 - **src/:** Contains all React components, pages, and assets.
 - **public/:** Contains static files like index.html.
 - **tailwind.config.js:** Tailwind CSS configuration.
