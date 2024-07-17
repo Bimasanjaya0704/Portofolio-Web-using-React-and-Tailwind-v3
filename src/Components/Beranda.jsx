@@ -7,6 +7,8 @@ import {
   FaGithubSquare,
   FaLinkedin,
 } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Beranda = () => {
   const [isTextExpanded, setIsTextExpanded] = useState(false);
@@ -106,9 +108,9 @@ const Beranda = () => {
                   data-aos="zoom-in-up"
                   data-aos-duration="2000"
                 >
-                  <img
+                  <LazyLoadImage
                     src={imgberanda}
-                    alt="imgberanda"
+                    alt="Bima Sanjaya"
                     className="max-w-full mx-auto object-cover"
                     width="400"
                     height="200"

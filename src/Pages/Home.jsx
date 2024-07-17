@@ -1,21 +1,23 @@
 import React from "react";
 import NavBar from "../Components/Navbar";
 import Beranda from "../Components/Beranda";
-import Blog from "../Components/Blog";
-import Skills from "../Components/Skilss";
+import Experience from "../Components/Experience";
+import Skills from "../Components/Skills";
 import Portofolio from "../Components/Portofolio";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import ScrollToTopButton from "../Components/ScrollToTopBtn";
 
 const Home = () => {
   return (
     <div className="font-montserrat">
       <NavBar />
       <Beranda />
-      <Blog />
+      <Experience />
       <Skills />
       <Portofolio />
       <Contact />
+      <ScrollToTopButton />
       <Footer />
     </div>
   );
