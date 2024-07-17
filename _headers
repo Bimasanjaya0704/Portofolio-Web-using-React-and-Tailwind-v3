@@ -1,4 +1,4 @@
-
+# Aturan caching untuk semua file
 /*
   Cache-Control: public, max-age=31536000, immutable  # 1 tahun untuk file statis
 
