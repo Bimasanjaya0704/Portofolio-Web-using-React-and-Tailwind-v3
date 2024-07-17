@@ -24,7 +24,7 @@ Welcome to my portfolio! This is a portfolio website built using React and Tailw
 4. Run the application:
    **npm start**
 
-## Penjelasan Struktur Proyek
+## Project Structure Explanation
 
 - **src/:** Contains all React components, pages, and assets.
 - **public/:** Contains static files like index.html.
