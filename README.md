@@ -16,7 +16,7 @@ Welcome to my portfolio! This is a portfolio website built using React and Tailw
 ## How to Run the Project
 
 1. Clone this repository:
-   **git clone https://github.com/username/repo-name.git**
+   **git clone https://github.com/Bimasanjaya0704/Portofolio-Web-using-React-and-Tailwind-v3.git**
 2. Navigate to the project directory:
    **cd** repo-name
 3. Install dependencies:
