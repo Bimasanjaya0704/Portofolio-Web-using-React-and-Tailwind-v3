@@ -65,17 +65,11 @@ const Beranda = () => {
                         : "overflow-hidden line-clamp-3 lg:line-clamp-none"
                     }`}
                   >
-                    As a final semester student majoring in Computer and
-                    Information Technology Education, I specialize in front-end
-                    development. In my role as a junior front-end developer, I
-                    have gained substantial experience in designing and
-                    developing responsive and engaging user interfaces (UI)
-                    using HTML, CSS, and JavaScript. Additionally, I have
-                    knowledge in utilizing frameworks such as React and Tailwind
-                    to build interactive and responsive web applications.
-                    Moreover, I am proficient in handling RESTful API operations
-                    effectively to collaborate with the backend team and
-                    familiar with the usage of Git.
+                   I am a recent graduate from Universitas Negeri Semarang with a Bachelor's degree in Computer and Information Technology Education, achieving a GPA of 3.62. I specialize in front-end development and have experience in building responsive and engaging user interfaces (UI) using HTML, CSS, and JavaScript.
+
+I am proficient in utilizing frameworks such as React and Tailwind CSS to create interactive and customizable web applications. My skills also include API integration, enabling smooth collaboration with backend teams, and version control with Git to ensure efficient and collaborative project development.
+
+I am highly enthusiastic about continuously enhancing my web development skills and contributing effectively to innovative projects that push technological boundaries.
                   </p>
                   {!isTextExpanded ? (
                     <span
