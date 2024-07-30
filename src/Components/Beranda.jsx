@@ -28,7 +28,7 @@ const Beranda = () => {
 
   const handleDownload = () => {
     const fileURL =
-      "https://drive.google.com/file/d/1cPGST2e0iRfimux2dgQV0APcMezfWmQ4/view?usp=sharing";
+      "https://drive.google.com/file/d/1HN9eLWCp05gDj5vurxvJ0izAIv1BWwjM/view?usp=sharing";
     window.open(fileURL, "_blank");
   };
 
